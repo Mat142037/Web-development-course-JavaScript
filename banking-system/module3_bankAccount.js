@@ -18,5 +18,8 @@ export default class Bankaccount {
     checkBalance() { //Check balance method
         console.log('Your balance is ' + this.balance);
     }
-
 }
+
+var withdrawAmouunt;
+var depositAmount;
+
