@@ -9,11 +9,14 @@ export default class Bankaccount {
         if  (this.balance >= withdrawAmount) {
             this.balance -= withdrawAmount;
         }
+         console.log('You have withdrawn ' + withdrawAmouunt + ' your new balnce is ', + this.balance)
     }
     deposit(depositAmount) { //Deposit method
-        this.balance += depositAmount; 
+        this.balance += depositAmount;
+        console.log('You have deposited ' + depositAmount + ' your new balnce is ', + this.balance)
     }
     checkBalance() { //Check balance method
-        this.balance
+        console.log('Your balance is ' + this.balance);
     }
+
 }
