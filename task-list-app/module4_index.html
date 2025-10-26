@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List Application</title>
+    <style>
+        @font-face {
+            font-family: Avro;
+            src: url(Arvo/Arvo-Regular.ttf);
+        }
+        .item {
+            font-weight: 600;
+            letter-spacing: 4px;
+        }
+        .selected-item {
+            border: 1px solid green;
+            background-color: greenyellow;
+        }
+        #task-section {
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color: #dfdddd;
+            margin: 5px;
+            padding: 5px;
+        }
+        #task-list {
+            max-width: 1000px;
+            text-align: right;
+        }
+         .checkbox {
+            border: none;
+            background-color: #dfdddd;
+        }
+        .edit-button {
+            font-family: avro, sans-serif;
+            background-color: #65c7ee;
+            margin: 2px;
+            padding: 2px;
+            border-radius: 3px;
+        }
+        .remove-button {
+            font-family: avro, sans-serif;
+            background-color: #f73636;
+            margin: 2px;
+            padding: 2px;
+            border-radius: 3px;
+        }
+       
+    </style>
+</head>
+<body style="background-color: #c0bcbc; font-family: avro, sans-serif;">
+    <h1 style="text-align: center;">Task List App</h1>
+    <label for="task-input">Create new task</label>
+    <input type="text" id="task-input" minlength="2" placeholder="Enter task">
+    <button onclick="addTask()" style="font-family: avro, sans-serif;">Add task</button>
+    <section id="task-section">
+        <ol id="task-list"></ol>
+    </section>
+    <script src="module4_indexnew.js"></script>
+</body>
+</html>
