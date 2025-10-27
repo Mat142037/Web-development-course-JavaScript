@@ -1,0 +1,202 @@
+/*Modern text*/
+@font-face {
+    font-family: Orbitron;
+    src: url(Fonts/Orbitron-Regular.ttf);
+}
+
+/*Retro text*/
+@font-face {
+    font-family: Monoton;
+    src: url(Fonts/Monoton-Regular.ttf);
+}
+
+/*Modern Styling*/
+.body {
+    background-color: #208c8c;
+    font-family: Orbitron, sans-serif;
+    font-weight: 10;
+    color: #cae9ea;
+    letter-spacing: 2px;
+}
+
+.navigation-container {
+    margin: 0;
+    padding: 0;
+    background-color: #273b40;
+    height: 50px;
+    width: auto;
+    left: 0;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    float: right;
+}
+
+.nav-list a {
+    font-family: Orbitron, sans-serif;
+    font-size: x-large;
+    color: #cae9ea;
+    text-decoration: none;
+    padding: 10px;
+    letter-spacing: 3px;
+}
+
+.news-container {
+    margin-top: 50px;
+}
+
+.news-container h1 {
+    text-align: center;
+}
+
+.news-section {
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid #3c4748;
+    border-radius: 10px;
+    line-height: 35px;
+}
+
+.bottom-container {
+    display: flex;
+}
+
+.games-charts {
+    margin-left: 200px;
+    line-height: 50px;
+}
+
+.contact-form-section {
+    margin-left: 300px;
+    margin-top: 100px;
+    border: 5px solid #3c4748;
+    border-radius: 10px;
+    width: 700px;
+    height: 400px;
+    padding: 20px;
+}
+
+.form label, input {
+    width: 690px;
+    margin: 10px;
+}
+
+.form-check {
+    display: flex;
+    padding: 10px;
+}
+
+.form-check label {
+    width: 1500px;
+}
+
+.contact-form label {
+    font-size: 10px;
+}
+
+.contact-form button {
+    font-family: Orbitron, sans-serif;
+    color: #cae9ea;
+    background-color: #273b40;
+    border: 2px solid #cae9ea;
+    letter-spacing: 3px;
+    padding: 5px;
+    margin-left: 270px;
+}
+
+.footer-container {
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 20px;
+    width: auto;
+    background-color: #273b40;
+    height: 120px;
+    text-align: center;
+}
+
+.retro {
+    font-family: Monoton, sans-serif;
+    color: #f3587a;
+    background-color: #ffb530;
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+}
+
+/*Retro styling*/
+
+.body-retro {
+    background-color: #f3587a;
+    font-family: Monoton, sans-serif;
+    color: #14f7eb;
+    letter-spacing: 2px;
+}
+
+.navigation-container-retro {
+    margin: 0;
+    padding: 0;
+    background-color: #ffb530;
+    height: 50px;
+    width: auto;
+    left: 0;
+}
+
+.nav-list-retro a {
+    font-family: Monoton, sans-serif;
+    font-size: x-large;
+    color: #f3587a;
+    text-decoration: none;
+    padding: 10px;
+    letter-spacing: 3px;
+}
+
+.news-section-retro {
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid #ffb530;
+    border-radius: 10px;
+    line-height: 35px;
+}
+
+.contact-form-section-retro {
+    margin-left: 300px;
+    margin-top: 100px;
+    border: 5px solid #ffb530;
+    border-radius: 10px;
+    width: 700px;
+    height: 400px;
+    padding: 20px;
+}
+
+.contact-form-retro button {
+    font-family: Monoton, sans-serif;
+    color: #f3587a;
+    background-color: #ffb530;
+    border: 2px solid #14f7eb;
+    letter-spacing: 3px;
+    padding: 5px;
+    margin-left: 270px;
+}
+
+.footer-container-retro {
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 20px;
+    width: auto;
+    background-color: #ffb530;
+    height: 120px;
+    text-align: center;
+}
+
+.modern {
+    font-family: Orbitron, sans-serif;
+    color: #cae9ea;
+    background-color: #273b40;
+    width: 100px;
+    height: 50px;
+}
+

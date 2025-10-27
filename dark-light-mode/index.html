@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark/Light Mode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+
+    <!--Navigation section-->
+    <nav class="navigation-container">
+        <ul class="nav-list">
+            <li><a href="">Home</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Reviews</a></li>
+            <li><a href="">Podcasts</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--Main div-->
+    <div class="news-container">
+        <h1>New World Gaming</h1>
+
+        <!--Gaming news section-->
+    <section class="news-section">
+        <h2>Latest gaming news:</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Proin tortor purus platea sit eu id nisi litora libero. Neque vulputate consequat ac amet augue blandit maximus aliquet congue. 
+            Pharetra vestibulum posuere ornare faucibus fusce dictumst orci aenean eu facilisis ut volutpat commodo senectus purus himenaeos fames primis convallis nisi.
+            Vehicula etiam elementum finibus enim duis feugiat commodo adipiscing tortor tempor elit. 
+            Et mollis consectetur habitant turpis tortor consectetur adipiscing vulputate dolor lectus iaculis convallis adipiscing. 
+            Nam hendrerit dignissim condimentum ullamcorper diam morbi eget consectetur odio in sagittis.</p>
+        <br>
+        <p>Phasellus fermentum malesuada phasellus netus dictum aenean placerat egestas amet. Ornare taciti semper dolor tristique morbi. 
+            Sem leo tincidunt aliquet semper eu lectus scelerisque quis. Sagittis vivamus mollis nisi mollis enim fermentum laoreet.
+            Curabitur semper venenatis lectus viverra ex dictumst nulla maximus. 
+            Primis iaculis elementum conubia feugiat venenatis dolor augue ac blandit nullam ac phasellus turpis feugiat mollis. 
+            Duis lectus porta mattis imperdiet vivamus augue litora lectus arcu. 
+            Justo torquent pharetra volutpat ad blandit bibendum accumsan nec elit cras luctus primis ipsum gravida class congue.</p>
+    </section>
+    </div>
+
+    <!--Bottom div-->
+    <div class="bottom-container">
+
+        <!--Charts section-->
+        <section class="games-charts">
+            <h4>Top ten games out now:</h4>
+            <ol>
+                <li>Halo</li>
+                <li>Super Mario Bro</li>
+                <li>Donkey Kong</li>
+                <li>Sensible Soccer</li>
+                <li>Street Fighter</li>
+                <li>California Games</li>
+                <li>Fortnight</li>
+                <li>Sonic The Hedgehog</li>
+                <li>Tetris</li>
+                <li>Space Invaders</li>
+            </ol>
+        </section>
+
+        <!--Contact form section-->
+        <section class="contact-form-section">
+            <h3>Sign up to receive an online newsletter!</h3>
+            <form class="contact-form">
+                <div class="form">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" placeholder="First Name" required>
+                </div>
+                <div class="form">
+                    <label for="sname">Surname</label>
+                    <input type="text" id="sname" placeholder="Surname" required>
+                </div>
+                <div class="form">
+                    <label for="age">Age</label>
+                    <input type="number" id="age" placeholder="Age" required>
+                </div>
+                <div class="form">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="form-check">
+                    <label for="checkbox">Do you consent to us sharing your details?</label>
+                    <input type="checkbox" id="checkbox">
+                </div>
+                <button type="submit">Submit!</button>
+            </form>
+        </section>
+    </div>
+
+    <!--Footer section-->
+    <footer class="footer-container">
+        <button class= "retro" id="button" onclick="toggleMode()">Retro</button> 
+        <p>New World Gaming &copy; 2025</p>
+        <p>newworldgaming@email.com</p>  
+    </footer>
+
+    <!--Link to javaScript-->
+    <script src="script.js"></script>
+</body>
+</html>
