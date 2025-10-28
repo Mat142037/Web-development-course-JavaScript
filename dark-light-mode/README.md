@@ -5,10 +5,10 @@ An example of a gaming magazine website which has two different features of how
 the page is displayed; Modern Mode and Retro Mode.
 
 ##Files
--`index.html`: The HTML document contains the website structure and layout of the page
--`style.css` : The CSS document contains the two different styles (Modern & Rerto) for the page 
--`script.js` : The javaScript document contains the functionality of the page and the DOM manipulation when the toogle button is pressed
--`README.md` : The README document conatins the details of the project
+- `index.html`: The HTML document contains the website structure and layout of the page
+- `style.css` : The CSS document contains the two different styles (Modern & Rerto) for the page 
+- `script.js` : The javaScript document contains the functionality of the page and the DOM manipulation when the toogle button is pressed
+- `README.md` : The README document conatins the details of the project
 
 ##Usage Instructions
 1. Open the `index.html` document in your web browser
