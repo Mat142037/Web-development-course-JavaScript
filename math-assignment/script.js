@@ -1,4 +1,4 @@
-//Array withe the sample values taken from the river
+//Array with the samples values taken from the river
 let samples = [4.2, 5.1, 3.8, 4.7, 5.3];
 
 //Function to calculate the mean value of the samples
@@ -16,3 +16,4 @@ let result = Math.round(average * 100) / 100;
 let display = "The mean value is " + result;
 
 console.log(display);
+
