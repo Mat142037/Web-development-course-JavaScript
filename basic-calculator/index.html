@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Federo&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: federo, sans-serif;
+        }
+
+        .calculator {
+            display: inline-block;
+            background-color: #6e6e6e;
+            border: 2px solid #000;
+            border-radius: 5px;
+            width: 200px;
+        }
+
+        .calculator input {
+            width: 155px;
+            padding: 10px;
+            font-family: federo, sans-serif;
+        }
+
+        .calculator button {
+            font-size: 20px;
+            background-color: #fff;
+            border: 2px solid #000;
+            border-radius: 2px;
+            margin: 10px;
+            padding: 5px;
+        }
+
+        .calculator h3 {
+            margin: 10px;
+            color: #fff;
+            padding: 5px;
+            font-family: federo, sans-serif;
+        }
+
+        #number1, #number2 {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Basic Calculator</h1>
+    <div class="calculator">
+        <input type="text" id="number1">
+        <br>
+        <button id="plus" onclick="calculator(plus)">&plus;</button>
+        <button id="minus" onclick="calculator(minus)">&minus;</button>
+        <button id="multiply" onclick="calculator(multiply)">x</button>
+        <button id="divide" onclick="calculator(divide)">&divide;</button>
+        <br>
+        <input type="text" id="number2">
+        <h3 id="result"></h3>
+    </div>
+    <script>
+        function calculator(operand) {
+        const input1 = parseFloat(document.getElementById("number1").value)
+        const input2 = parseFloat(document.getElementById("number2").value)
+        let result;
+        let calculation;
+
+        if (isNaN(input1) || isNaN(input2)) {
+            result = `Please enter a valid number`
+        } else {
+            switch (operand) {
+                case plus:
+                    calculation = input1 + input2;
+                    result = `${input1} + ${input2} = ${calculation}`;
+                break;
+                case minus:
+                    calculation = input1 - input2;
+                    result = `${input1} - ${input2} = ${calculation}`;
+                break;
+                case multiply:
+                    calculation = input1 * input2;
+                    result = `${input1} x ${input2} = ${calculation}`;
+                break;
+                case divide:
+                    if (input2 === 0) {
+                        result = `Cannot divide by 0`
+                    } else {
+                    calculation = input1 / input2;
+                    result = `${input1} / ${input2} = ${calculation}`;
+                    }
+                break;
+                
+            }
+        }
+
+        document.getElementById('result').innerText = result;
+    }
+
+
+    
+    </script>
+</body>
+</html>
