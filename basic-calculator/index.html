@@ -59,15 +59,21 @@
         <h3 id="result"></h3>
     </div>
     <script>
+        //Fuction to perform calculation
         function calculator(operand) {
-        const input1 = parseFloat(document.getElementById("number1").value)
+          
+        //Checks number entered as string is a number and converts into floating point, returns NaN if not valid     
+        const input1 = parseFloat(document.getElementById("number1").value) 
         const input2 = parseFloat(document.getElementById("number2").value)
+
         let result;
         let calculation;
 
-        if (isNaN(input1) || isNaN(input2)) {
-            result = `Please enter a valid number`
+        if (isNaN(input1) || isNaN(input2)) { //Checks for a valid number input
+            result = `Please enter a valid number` 
         } else {
+
+            //Checks which operand was selected and performs the correct calculation
             switch (operand) {
                 case plus:
                     calculation = input1 + input2;
@@ -93,6 +99,7 @@
             }
         }
 
+        //Result is dipslayed in the HTML 
         document.getElementById('result').innerText = result;
     }
 
