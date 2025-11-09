@@ -51,6 +51,7 @@ if (image) {
 }
 }
 
+//Event listener to call the addImage function
 const addButton = document.getElementById('add-button');
 addButton.addEventListener('click', () => 
     addImage()
