@@ -1,0 +1,57 @@
+
+body {
+    background-color: #e2a35b;
+    font-family: federo, sans-serif;
+}
+
+body h1 {
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.input-container {
+    text-align: center;
+    margin: 5px;
+    padding: 3px;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;    
+}
+
+#gallery div {
+    margin: 5px;
+}
+
+#URL-input {
+    font-family: federo, sans-serif;
+    height: 20px;
+    border-radius: 5px;
+}
+
+#add-button {
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #83370a;
+    color: #fff;
+    font-family: federo, sans-serif;
+}
+
+.image {
+    width: 500px;
+    height: auto;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+.remove-button {
+    display: block;
+    width: 500px;
+    height: 50px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #83370a;
+    color: #fff;
+    font-family: federo, sans-serif;
+}
