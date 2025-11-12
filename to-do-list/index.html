@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <link href="https://fonts.googleapis.com/css2?family=Federo&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #d6d6dd;
+            font-family: federo, sans-serif;
+        }
+
+        .heading-container {
+            text-align: center;
+        }
+
+        .heading {
+            display: inline-block;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 2px 1px #59595f;
+            padding: 10px;
+            letter-spacing: 3px;
+        }
+
+        .input-container {
+            text-align: center;
+        }
+
+        .input-field {
+            display: inline-block;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 2px 1px #59595f;
+            padding: 10px;
+        }
+
+        .list-container {
+            align-self: center;
+            
+        }
+
+        #list {
+            display: inline-block;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 2px 1px #59595f;
+            padding: 5px;
+            margin: 10px;
+            width: 500px;
+            list-style: none;
+        }
+
+        .list-item {
+            padding: 10px;
+        }
+
+        #task-input, #add-button, .remove-button {
+            font-family: federo, sans-serif;
+        }
+
+        #add-button, .remove-button {
+            background-color: #4fc9df;
+            border: 2px solid #000;
+            border-radius: 2px;
+            padding: 10px;
+        }
+
+        #add-button:hover {
+            background-color: #55ec5d;
+        }
+        
+        .remove-button:hover {
+            background-color: #ec5555;
+        }
+    </style>
+</head>
+<body>
+    <div class="heading-container">
+        <h1 class="heading">To do List</h1>
+    </div>
+    <div class="input-container">
+        <div class="input-field">
+            <label for="task-input">Add task:</label>
+            <input type="text" id="task-input">
+            <button id="add-button">Add Task</button> 
+        </div>
+        <div class="list-container">
+            <ol id="list"></ol>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
