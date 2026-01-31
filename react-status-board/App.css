@@ -1,0 +1,55 @@
+
+.status-board {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.completed {
+  background-color: #d4edda;
+  color: green;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  width: 25%;
+}
+
+.completed img {
+  width: 100px;
+  height: auto;
+}
+
+.in-progress {
+  background-color: #d4edda;
+  color: #44a4ee;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  width: 25%;
+}
+
+.in-progress img {
+  width: 100px;
+  height: auto;
+}
+
+.failed {
+  background-color: #d4edda;
+  color: #ee4444;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  width: 25%;
+}
+
+.failed img {
+  width: 100px;
+  height: auto;
+}
+
+.heading {
+  text-align: center;
+}
