@@ -1,0 +1,54 @@
+.job-column {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0px 0px 0px;
+    padding: 25px;
+}
+
+.job-column-item {
+    background-color: #e6e1e6;
+    width: 30%;
+    display: inline;
+    text-align: center;
+}
+
+.heading-status {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.status-image {
+    width: 75px;
+    height: auto;
+}
+
+.content-paragragh {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.delete-icon {
+    width: 50px;
+    height: auto;
+    opacity: 50%;
+    margin-left: 50px;
+}
+
+.job-list {
+    list-style: circle;
+}
+
+.job-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.job-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
